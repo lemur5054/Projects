@@ -11,7 +11,7 @@ text
 📂 Project Folder/
 ├── 📄 run.bat (The file you double-click)
 ├── 📄 program.ps1 (The PowerShell script handling the logic)
-└── 📂 input/ (Folder containing your Word .docx files)
+└── 📂 Input/ (Folder containing your Word .docx files)
 Use code with caution.
 ⚙️ How It Works
 The script reads all files ending in .docx from the local input directory.
