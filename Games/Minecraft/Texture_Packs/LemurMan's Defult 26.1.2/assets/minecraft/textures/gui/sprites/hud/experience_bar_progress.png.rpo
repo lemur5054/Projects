@@ -1,0 +1,4 @@
+{
+    condition: "cobblemonInterface.hudColor.minecraft",
+    fallback: "assets/minecraft/textures/gui/sprites/hud/experience_bar_progress_blue.png"
+}

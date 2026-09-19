@@ -1,0 +1,7 @@
+{
+	"parent": "item/spear/fire_aspect_in_hand",
+	"textures": {
+		"0": "item/spear/fire_in_hand_green",
+		"particle": "item/spear/fire_in_hand_green"
+	}
+}

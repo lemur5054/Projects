@@ -1,0 +1,8 @@
+{
+    condition: "flamingSwords.outline.no & flamingSwords.threedbow & flamingSwords.bow",
+    fallback: [
+      "assets/minecraft/items/bow/bow_outline.json",
+      "assets/minecraft/items/bow/bow_flat.json",
+      "assets/minecraft/items/bow/bow_flat_outline.json"
+    ]
+}

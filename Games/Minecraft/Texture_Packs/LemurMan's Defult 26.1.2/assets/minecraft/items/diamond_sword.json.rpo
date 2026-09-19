@@ -1,0 +1,6 @@
+{
+    condition: "outline.no",
+    fallback: [
+      "assets/minecraft/items/diamond/diamond_sword_outline.json"
+    ]
+}

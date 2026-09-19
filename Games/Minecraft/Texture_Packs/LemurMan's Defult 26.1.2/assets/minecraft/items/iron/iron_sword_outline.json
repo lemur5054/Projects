@@ -1,0 +1,97 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {}
+        ],
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:enchantments",
+          "value": [
+            {
+              "enchantments": "minecraft:fire_aspect"
+            }
+          ],
+          "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "item/fire_aspect"
+              },
+              {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "firstperson_righthand",
+                      "firstperson_lefthand"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "item/firstperson/sword/enchanted_iron_sword"
+                    }
+                  },
+                  {
+                    "when": [
+                      "gui"
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/iron_sword"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "item/thirdperson/sword/enchanted_iron_sword"
+                }
+              }
+            ]
+          },
+          "on_false": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "item/firstperson/sword/enchanted_iron_sword"
+                }
+              },
+              {
+                "when": [
+                  "gui"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_sword"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "item/thirdperson/sword/enchanted_iron_sword"
+            }
+          }
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/iron_sword"
+        }
+      }
+    ]
+  },
+  "oversized_in_gui": true
+}

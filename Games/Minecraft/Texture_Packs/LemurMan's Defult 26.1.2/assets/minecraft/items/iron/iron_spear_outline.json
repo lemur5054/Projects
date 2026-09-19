@@ -1,0 +1,144 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:enchantments",
+    "value": [
+      {}
+    ],
+    "on_true": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "gui",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "item/spear/fire_aspect"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_spear"
+                }
+              ]
+            }
+          },
+          {
+            "when": [
+              "thirdperson_righthand",
+              "thirdperson_lefthand"
+            ],
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "item/thirdperson/spear/held_iron_spear"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "item/spear/fire_aspect_in_hand"
+                }
+              ]
+            }
+          },
+          {
+            "when": [
+              "firstperson_righthand",
+              "firstperson_lefthand"
+            ],
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "item/firstperson/spear/held_iron_spear"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "item/spear/fire_aspect_in_hand"
+                }
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "item/thirdperson/spear/iron_spear_dropped"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "gui",
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_spear"
+            }
+          },
+          {
+            "when": [
+              "thirdperson_righthand",
+              "thirdperson_lefthand"
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "item/thirdperson/spear/held_iron_spear"
+            }
+          },
+          {
+            "when": [
+              "firstperson_righthand",
+              "firstperson_lefthand"
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "item/firstperson/spear/held_iron_spear"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "item/thirdperson/spear/iron_spear_dropped"
+        }
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "firstperson_righthand",
+            "firstperson_lefthand",
+            "thirdperson_righthand",
+            "thirdperson_lefthand"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/iron_spear_in_hand"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/iron_spear"
+      }
+    }
+  },
+  "oversized_in_gui": true
+}

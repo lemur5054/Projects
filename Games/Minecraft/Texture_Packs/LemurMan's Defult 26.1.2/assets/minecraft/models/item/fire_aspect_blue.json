@@ -1,0 +1,7 @@
+{
+	"parent": "item/fire_aspect",
+	"textures": {
+		"0": "item/sword/soul_fire",
+		"particle": "item/sword/soul_fire"
+	}
+}

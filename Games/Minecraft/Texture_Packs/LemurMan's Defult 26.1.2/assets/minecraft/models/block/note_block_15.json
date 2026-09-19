@@ -1,0 +1,6 @@
+{
+    "parent": "block/note_surface_0",
+    "textures": {
+        "all": "block/note_block_15"
+    }
+}

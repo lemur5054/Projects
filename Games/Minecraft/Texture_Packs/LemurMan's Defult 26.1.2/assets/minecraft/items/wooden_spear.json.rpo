@@ -1,0 +1,6 @@
+{
+    condition: "outline.no",
+    fallback: [
+      "assets/minecraft/items/wooden/wooden_spear_outline.json"
+    ]
+}

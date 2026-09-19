@@ -1,0 +1,201 @@
+{
+  //containers
+  "block.minecraft.beacon.primary": "",
+  "block.minecraft.beacon.secondary": "",
+  "gui.recipebook.toggleRecipes.all": "",
+  "gui.recipebook.toggleRecipes.craftable": "",
+  "gui.recipebook.toggleRecipes.smeltable": "",
+  "gui.recipebook.toggleRecipes.blastable": "",
+  "gui.recipebook.toggleRecipes.smokable": "",
+  "container.crafter": "",
+  "container.inventory": "",
+  "container.hopper": "",
+  "container.crafting": "",
+  "container.dropper": "\u00A7bDropper",
+  "container.dispenser": "\u00A7bDispenser",
+  "container.furnace": "",
+  "container.enchant": "",
+  "container.smoker": "",
+  "container.lectern": "",
+  "container.blast_furnace": "",
+  "container.repair": "",
+  "container.creative": "",
+  "container.brewing": "",
+  "container.chest": "",
+  "container.chestDouble": "",
+  "container.enderchest": "",
+  "container.beacon": "",
+  "container.shulkerBox": "",
+  "container.barrel": "",
+  "container.loom": "",
+  "container.grindstone_title": "",
+  "container.cartography_table": "",
+  "container.stonecutter": "",
+  "container.upgrade": "",
+  "container.upgrade.missing_template_tooltip": "",
+  "container.upgrade.error_tooltip": "",
+  "item.minecraft.smithing_template.armor_trim.base_slot_description": "",
+
+  "item.minecraft.smithing_template.armor_trim.additions_slot_description": "",
+  "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "",
+  "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "",
+  "entity.minecraft.hopper_minecart": "",
+  "entity.minecraft.chest_minecart": "",
+
+
+  //item groups
+  "itemGroup.search": "\u00A7bSearch...",
+  "itemGroup.buildingBlocks": "\u00A7bBuilding Blocks",
+  "itemGroup.coloredBlocks": "\u00A7bColored Blocks",
+  "itemGroup.combat": "\u00A7bCombat",
+  "itemGroup.consumables": "\u00A7bConsumables",
+  "itemGroup.crafting": "\u00A7bCrafting",
+  "itemGroup.foodAndDrink": "\u00A7bFood & Drinks",
+  "itemGroup.functional": "\u00A7bFunctional Blocks",
+  "itemGroup.hotbar": "\u00A7b SavedHotbars",
+  "itemGroup.ingredients": "\u00A7bIngredients",
+  "itemGroup.inventory": "\u00A7bSurvival Inventory",
+  "itemGroup.natural": "\u00A7bNatural Blocks",
+  "itemGroup.op": "\u00A7bOperator Utilities",
+  "itemGroup.redstone": "\u00A7bRedstone Blocks",
+  "itemGroup.spawnEggs": "\u00A7bSpawn Eggs",
+  "itemGroup.tools": "\u00A7bTools & Utilities",
+
+  //recipe book
+  "gui.recipebook.search_hint": "§fSearch...",
+
+  //language options
+  "options.languageAccuracyWarning": "§cSelect the §6[Vanilla] §clanguage if you dont use OptiGUI or Optifine",
+
+  //settings
+  "options.off": "§cOFF",
+  "options.on": "§aON",
+  "options.difficulty.peaceful": "§bPeaceful",
+  "options.difficulty.easy": "§aEasy",
+  "options.difficulty.normal": "§eNormal",
+  "options.difficulty.hard": "§cHard",
+  "options.clouds.fancy": "§aFancy",
+  "options.clouds.fast": "§eFast",
+  "options.graphics.fabulous": "§dFabulous!",
+  "options.graphics.fancy": "§aFancy",
+  "options.graphics.fast": "§eFast",
+  "options.narrator.off": "§cOFF",
+
+  //Chest Boats
+  "entity.minecraft.acacia_chest_boat": "",
+  "entity.minecraft.birch_chest_boat": "",
+  "entity.minecraft.cherry_chest_boat": "",
+  "entity.minecraft.chest_boat": "",
+  "entity.minecraft.dark_oak_chest_boat": "",
+  "entity.minecraft.jungle_chest_boat": "",
+  "entity.minecraft.mangrove_chest_boat": "",
+  "entity.minecraft.oak_chest_boat": "",
+  "entity.minecraft.pale_oak_chest_boat": "",
+  "entity.minecraft.spruce_chest_boat": "",
+  "entity.minecraft.bamboo_chest_raft": "",
+
+
+  //Hides the trade buttons
+  "merchant.trades": "§f\uE995\uE995\uE995\uEe99",
+
+
+
+  //chat settings
+  "commands.message.display.incoming": "%s whispers ME to you: %s",
+  "commands.message.display.outgoing": "You whisper to HIM %s: %s",
+
+  //enchantments
+  "enchantment.minecraft.aqua_affinity": "§5Aqua Affinity",
+  "enchantment.minecraft.bane_of_arthropods": "§5Bane of Arthropods",
+  "enchantment.minecraft.blast_protection": "§5Blast Protection",
+  "enchantment.minecraft.breach": "§5Breach",
+  "enchantment.minecraft.channeling": "§5Channeling",
+  "enchantment.minecraft.cleaving": "§5Cleaving",
+  "enchantment.minecraft.density": "§5Density",
+  "enchantment.minecraft.depth_strider": "§5Depth Strider",
+  "enchantment.minecraft.efficiency": "§5Efficiency",
+  "enchantment.minecraft.feather_falling": "§5Feather Falling",
+  "enchantment.minecraft.fire_aspect": "§5Fire Aspect",
+  "enchantment.minecraft.fire_protection": "§5Fire Protection",
+  "enchantment.minecraft.flame": "§5Flame",
+  "enchantment.minecraft.fortune": "§5Fortune",
+  "enchantment.minecraft.frost_walker": "§5Frost Walker",
+  "enchantment.minecraft.impaling": "§5Impaling",
+  "enchantment.minecraft.infinity": "§5Infinity",
+  "enchantment.minecraft.knockback": "§5Knockback",
+  "enchantment.minecraft.looting": "§5Looting",
+  "enchantment.minecraft.loyalty": "§5Loyalty",
+  "enchantment.minecraft.luck_of_the_sea": "§5Luck of the Sea",
+  "enchantment.minecraft.lunge": "§5Lunge",
+  "enchantment.minecraft.lure": "§5Lure",
+  "enchantment.minecraft.mending": "§5Mending",
+  "enchantment.minecraft.multishot": "§5Multishot",
+  "enchantment.minecraft.piercing": "§5Piercing",
+  "enchantment.minecraft.power": "§5Power",
+  "enchantment.minecraft.projectile_protection": "§5Projectile Protection",
+  "enchantment.minecraft.protection": "§5Protection",
+  "enchantment.minecraft.punch": "§5Punch",
+  "enchantment.minecraft.quick_charge": "§5Quick Charge",
+  "enchantment.minecraft.respiration": "§5Respiration",
+  "enchantment.minecraft.riptide": "§5Riptide",
+  "enchantment.minecraft.sharpness": "§5Sharpness",
+  "enchantment.minecraft.silk_touch": "§5Silk Touch",
+  "enchantment.minecraft.smite": "§5Smite",
+  "enchantment.minecraft.soul_speed": "§5Soul Speed",
+  "enchantment.minecraft.sweeping_edge": "§5Sweeping Edge",
+  "enchantment.minecraft.swift_sneak": "§5Swift Sneak",
+  "enchantment.minecraft.thorns": "§5Thorns",
+  "enchantment.minecraft.unbreaking": "§5Unbreaking",
+  "enchantment.minecraft.wind_burst": "§5Wind Burst",
+  "enchantment.minecraft.curse_of_binding": "§cCurse of Binding",
+  "enchantment.minecraft.curse_of_vanishing": "§cCurse of Vanishing",
+
+  //enchantment levels
+  "enchantment.level.1": "§5I",
+  "enchantment.level.2": "§5II",
+  "enchantment.level.3": "§5III",
+  "enchantment.level.4": "§5IV",
+  "enchantment.level.5": "§5V",
+  "enchantment.level.6": "§5VI",
+  "enchantment.level.7": "§5VII",
+  "enchantment.level.8": "§5VIII",
+  "enchantment.level.9": "§5IX",
+  "enchantment.level.10": "§5X",
+
+  //items
+  "item.minecraft.golden_apple": "§eGolden Apple",
+  //diamond nameing orange
+  "item.minecraft.diamond_sword": "§6Diamond Sword",
+  "item.minecraft.diamond_axe": "§6Diamond Axe",
+  "item.minecraft.diamond_pickaxe": "§6Diamond Pickaxe",
+  "item.minecraft.diamond_spear": "§6Diamond Spear",
+  //netherite nameing orange
+  "item.minecraft.netherite_sword": "§6Netherite Sword",
+  "item.minecraft.netherite_axe": "§6Netherite Axe",
+  "item.minecraft.netherite_pickaxe": "§6Netherite Pickaxe",
+  "item.minecraft.netherite_spear": "§6Netherite Spear",
+  //chainmain name white
+  "item.minecraft.chainmail_helmet": "§fChainmail Helmet",
+  "item.minecraft.chainmail_chestplate": "§fChainmail Chestplate",
+  "item.minecraft.chainmail_leggings": "§fChainmail Leggings",
+  "item.minecraft.chainmail_boots": "§fChainmail Boots",
+
+  //attributes
+  "attribute.name.generic.attack_damage": "Attack Damage",
+  "attribute.name.generic.attack_speed": "Attack Speed",
+  "screen.minecraft.item.tooltip.main_hand": "§7When in Main Hand:",
+
+  //banner patterns fixed name shorten and white
+  "item.minecraft.flower_banner_pattern.new": "§fFlower Charge",
+  "item.minecraft.creeper_banner_pattern.new": "§fCreeper Charge",
+  "item.minecraft.skull_banner_pattern.new": "§fSkull Charge",
+  "item.minecraft.mojang_banner_pattern.new": "§fThing",
+  "item.minecraft.globe_banner_pattern.new": "§fGlobe",
+  "item.minecraft.piglin_banner_pattern.new": "§fSnout",
+  "item.minecraft.guster_banner_pattern.new": "§fGuster",
+  "item.minecraft.field_masoned_banner_pattern": "§fField Masoned", //does not work
+  "item.minecraft.bordure_indented_banner_pattern": "§fBordure Indented", //does not work
+  "item.minecraft.flow_banner_pattern.new": "§fFlow"
+
+ 
+}

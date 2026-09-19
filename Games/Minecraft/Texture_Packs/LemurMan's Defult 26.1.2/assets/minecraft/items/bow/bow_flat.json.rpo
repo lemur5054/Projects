@@ -1,0 +1,3 @@
+{
+    condition: "flamingSwords.outline.no & !flamingSwords.threedbow & flamingSwords.bow"
+}
